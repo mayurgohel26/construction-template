@@ -1,0 +1,261 @@
+@media (max-width:992px) {
+    .main-section {
+        height: 550px;
+    }
+
+    .about-two {
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .about-two-left,
+    .about-two-right {
+        padding: 25px;
+        width: 100%;
+    }
+
+    .about-right-text p {
+        padding: 10px 25px;
+        border: 1px solid #000;
+    }
+
+    .service-one-text p {
+        padding: 15px 10px;
+    }
+
+    .service .service-box {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+    }
+
+    .team-text p {
+        padding: 10px 30px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .main-header {
+        justify-content: space-between;
+        padding: 10px;
+        position: relative;
+    }
+
+    .click {
+        display: block;
+    }
+
+    nav ul .menu {
+        display: none;
+    }
+
+    .main-section {
+        height: 500px;
+    }
+
+    .hero-text h1 {
+        font-size: 45px;
+    }
+
+    .hero-text p {
+        width: 400px;
+        font-size: 15px;
+        padding: 10px 0;
+    }
+
+    .hero-text button {
+        padding: 14px 60px;
+        font-size: 14px;
+    }
+
+    .about-one-text p {
+        padding: 0 20px;
+        font-size: 16px;
+    }
+
+    .about-two {
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .about-two-left,
+    .about-two-right {
+        padding: 25px;
+        width: 100%;
+    }
+
+    .about-right-text p {
+        padding: 5px;
+        border: 1px solid #000;
+    }
+
+    .about-clients .cli-one h3 {
+        font-size: 18px;
+    }
+
+    .cli-one .numb {
+        font-size: 28px;
+    }
+
+    section .service {
+        padding: 30px;
+    }
+
+    .service-one-text p {
+        padding: 15px 10px;
+    }
+
+    .service .service-box {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+    }
+
+    .team-text p {
+        padding: 10px 30px;
+    }
+
+}
+
+@media (max-width:500px) {
+
+    .main-header {
+        justify-content: space-between;
+        padding: 10px;
+        position: relative;
+    }
+
+    nav ul {
+        position: absolute;
+        top: 100%;
+        left: -150%;
+        /* border: 1px solid #000; */
+        width: 100%;
+        text-align: center;
+        background: #ffffff;
+        transition: 0.5s;
+    }
+
+    nav ul .menu {
+        display: block;
+    }
+
+    .click {
+        display: block;
+    }
+
+    .click:hover ul {
+        left: 0px;
+    }
+
+    .main-section {
+        height: 400px;
+    }
+
+    .hero-text h1 {
+        font-size: 35px;
+    }
+
+    .hero-text p {
+        width: 300px;
+        font-size: 14px;
+        padding: 20px 0px;
+    }
+
+    .hero-text button {
+        padding: 14px 60px;
+        font-size: 14px;
+    }
+
+    .about .about-one {
+        padding: 20px 0;
+    }
+
+    .about-one .about-one-text {
+        padding: 0px;
+    }
+
+    .about-one-text h2 {
+        font-size: 26px;
+        padding-bottom: 0px;
+    }
+
+    .about-one-text p {
+        padding: 20px 80px;
+        font-size: 14px;
+    }
+
+    .about-two {
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .about-two-left,
+    .about-two-right {
+        padding: 25px;
+        width: 100%;
+    }
+
+    .about-two-right h2 {
+        font-size: 26px;
+    }
+
+    .about-two-right-one {
+        padding: 0px;
+    }
+
+    .about-two-right-one h4 {
+        font-size: 16px;
+        border: 1px solid #000;
+    }
+
+    .about-right-text p {
+        padding: 15px;
+        border: 1px solid #000;
+    }
+
+    .about-clients .cli-one {
+        padding: 20px;
+    }
+
+    .about-clients .cli-one h3 {
+        font-size: 14px;
+    }
+
+    .cli-one .numb {
+        font-size: 26px;
+    }
+
+    section .service {
+        padding: 30px;
+    }
+
+    .service-one-text p {
+        padding: 15px 10px;
+    }
+
+    .service .service-box {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+    }
+
+    .service-box-one {
+        flex-direction: column;
+    }
+
+    .gallery-one-text p {
+        padding: 10px 30px;
+    }
+
+    .nav-gallery li {
+        display: none;
+    }
+
+    .team-text h2 {
+        padding: 10px;
+    }
+
+    .team-text p {
+        padding: 20px;
+    }
+
+}
